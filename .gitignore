@@ -1,0 +1,65 @@
+# ---------------------------
+#  Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# ---------------------------
+#  Virtual Environment
+# ---------------------------
+venv/
+.env/
+.env*/  
+*.venv/
+
+# ---------------------------
+#  Model Artifacts
+# ---------------------------
+models/
+*.pkl
+*.joblib
+
+# ---------------------------
+#  Outputs (Predictions / Logs)
+# ---------------------------
+outputs/
+*.json
+*.log
+
+# ---------------------------
+#  Data files
+# ---------------------------
+data/*.csv
+data/*.tsv
+data/*.parquet
+
+# If you want to track clean dataset, comment the above line.
+# data/sanitized_no_timeleak_dataset.csv
+
+# ---------------------------
+#  IDE files
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+#  OS Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+#  Build / Dist
+# ---------------------------
+dist/
+build/
+*.egg-info/
+
+# ---------------------------
+#  Jupyter Notebooks Checkpoints
+# ---------------------------
+.ipynb_checkpoints/

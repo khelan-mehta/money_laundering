@@ -1,0 +1,53 @@
+# Flask web framework
+Flask>=3.0.0
+Werkzeug>=3.0.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning core
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Deep learning
+tensorflow>=2.16.0
+
+# Data preprocessing and sampling
+imbalanced-learn>=0.9.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Model interpretability
+lime>=0.2.0.1
+
+# HTTP client for testing (optional)
+requests>=2.31.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+pytest-flask>=1.2.0
+
+# Production WSGI server (optional)
+gunicorn>=21.0.0
+
+# Environment management (optional)
+python-dotenv>=1.0.0
+
+# System and utility libraries
+# The following are built-in Python modules and don't need installation:
+# pickle, os, datetime, time, threading, queue, logging, collections, json
+
+# Optional: For better performance with numerical operations
+scipy>=1.9.0  # Usually comes with scikit-learn
+
+# Optional: For reproducibility
+setuptools>=65.0.0
+
+# Python version compatibility note:
+# This requirements.txt is designed for Python 3.12
+# TensorFlow 2.16+ supports Python 3.9-3.12
+# Flask 3.0+ requires Python 3.8+
+# All other packages are compatible with Python 3.12
