@@ -33,9 +33,7 @@ outputs/
 # ---------------------------
 #  Data files
 # ---------------------------
-data/*.csv
-data/*.tsv
-data/*.parquet
+
 
 # If you want to track clean dataset, comment the above line.
 # data/sanitized_no_timeleak_dataset.csv
